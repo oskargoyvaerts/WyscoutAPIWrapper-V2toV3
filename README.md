@@ -1,4 +1,3 @@
-# WyscoutAPIWrapper-V2toV3
 
 # Wyscout API Wrappers for V2 and V3
 
@@ -10,17 +9,23 @@ Before you start extracting data using these wrappers, you need to configure the
 
 ### Database Connection
 
+# Import Functions Setup
+
 In the `importfunctions.py` files for both V2 and V3, set up the database engine:
 
 ```python
 engine = create_engine('postgresql://postgres:YourPassword@localhost:5432/wyscout')
-Replace YourPassword with the actual password for your PostgreSQL database.
+
+```
 
 # Wyscout Credentials
+
 You will also need to provide your Wyscout credentials:
 
+```python
 client_id = "YourClientId"
 client_secret = "YourClientSecret"
+```
 
 Replace YourClientId and YourClientSecret with your actual Wyscout credentials.
 
