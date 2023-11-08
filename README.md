@@ -32,10 +32,10 @@ Replace YourClientId and YourClientSecret with your actual Wyscout credentials.
 Note: Make sure to modify the database connection string depending on the SQL database type you are using.
 
 ### Usage
-V2 Wrapper
+#### V2 Wrapper 
 The V2 Wrapper is designed to save data by default to JSON format, considering the compatibility with a variety of open-source repositories that utilize JSON.
 
-V3 Wrapper
+#### V3 Wrapper
 In contrast, the V3 Wrapper saves data directly to an SQL database, as there are no existing repositories for processing V3 data.
 
 ### Setting the Area Code
